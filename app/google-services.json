@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "435534452160",
+    "firebase_url": "https://wira2-c358b.firebaseio.com",
+    "project_id": "wira2-c358b",
+    "storage_bucket": "wira2-c358b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435534452160:android:f304ed41142d1a0a",
+        "android_client_info": {
+          "package_name": "com.suluhu.wira2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435534452160-7kmbug52ngeppoqn92c2l9n2vtlvrf2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxKHqH90WayaDLa3rPUAD5GuaY-f-yuik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435534452160-7kmbug52ngeppoqn92c2l9n2vtlvrf2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

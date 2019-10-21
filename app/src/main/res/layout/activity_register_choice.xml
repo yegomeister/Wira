@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.RegisterChoiceActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/regBadge"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/wira_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:id="@+id/regTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/regBadge"
+        android:layout_marginTop="5dp"
+        android:text="@string/register"
+        android:textColor="@color/DarkSlateGray"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/register_as_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_as"
+        android:layout_below="@id/regTag"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/reg_as_client"
+        android:layout_below="@id/register_as_text"
+        android:layout_centerHorizontal="true"
+        android:text="@string/client"
+        android:textAllCaps="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/DarkSlateGray"
+        android:textColor="@color/White"/>
+
+    <Button
+        android:id="@+id/reg_as_worker"
+        android:layout_below="@id/reg_as_client"
+        android:layout_centerHorizontal="true"
+        android:text="@string/worker"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="true"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/DarkSlateGray"
+        android:textColor="@color/White"/>
+
+    <Button
+        android:id="@+id/back_to_login"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/back_to_login"
+        android:padding="10dp"
+        android:textAllCaps="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/White"/>
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Wira</string>
+    <string name="worker">Worker</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="hasAccount">Already Have an Account?</string>
+    <string name="action_login">Login</string>
+    <string name="login">Login</string>
+    <string name="has_no_account">Don\'t have an account?</string>
+    <string name="action_create_account">Create New Account</string>
+
+    //Firebase String Resources
+    <string name="collection_workers">Workers</string>
+    <string name="collection_clients">Clients</string>
+    <string name="collection_worker_skills">Worker Skills</string>
+    <string name="collection_user_locations">User Locations</string>
+    <string name="users">Users</string>
+    <string name="profile_images">profile_images</string>
+
+    //@String valuues for Worker Status
+    <string name="available">Available</string>
+    <string name="engaged">Engaged</string>
+    <string name="offline">Offline</string>
+    <string name="logout">Logout</string>
+    <string name="submit">Submit</string>
+    <string name="skills">Skills</string>
+    <string name="date_format">dd/MM/yy</string>
+    <string name="DOB">Date of Birth</string>
+    <string name="phone">Phone</string>
+    <string name="lastname">Last Name</string>
+    <string name="firstname">First Name</string>
+    <string name="some_text">Sample Text</string>
+
+    //String values for services
+    <string-array name="services">
+        <item>Interior Desing</item>
+        <item>Painting</item>
+        <item>Tiling</item>
+        <item>Plumbing</item>
+        <item>Carpentry</item>
+        <item>Electricity</item>
+        <item>Landscaping</item>
+        <item>House Cleaning</item>
+        <item>Laundry</item>
+        <item>Babysitting</item>
+        <item>Cab Service</item>
+        <item>Personal Shopper</item>
+        <item>Package Delivery</item>
+    </string-array>
+    <string name="title_activity_worker_map">Map</string>
+    <string name="register_as">How would you like to join Wira?</string>
+    <string name="client">Client</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="title_activity_client_map">Map</string>
+    <string name="collection_worker_location">Workers Location</string>
+    <string name="collection_client_location">Clients Location</string>
+    <string name="request_worker">Request Worker</string>
+    <string name="randomPhoneNumber">1234567890</string>
+    <string name="requesting_client_id">Requesting Client</string>
+    <string name="cancel_request_title">Cancel Request</string>
+    <string name="cancel_message">Are you sure you want to cancel your request?</string>
+    <string name="yes">Yes</string>
+    <string name="locating_worker">Locating a Worker</string>
+    <string name="skill_hint">Required skill</string>
+    <string name="skill">skills</string>
+    <string name="server_key">AIzaSyDCn0drsSOzBG_GY23VU9fN71wt5qEQNSE</string>
+
+
+</resources>

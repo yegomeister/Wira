@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ClientRegisterActivity">
+
+    <ProgressBar
+        android:id="@+id/client_reg_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+    <ImageView
+        android:id="@+id/regBadge"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/wira_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/clientTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/regBadge"
+        android:layout_marginTop="5dp"
+        android:text="@string/client"
+        android:textSize="20sp"
+        android:textColor="@color/DarkSlateGray"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/reg_email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/clientTag"
+        android:hint="@string/email"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/reg_pass"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/password"
+        android:layout_below="@id/reg_email"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/confirm_reg_pass"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/confirm_password"
+        android:layout_below="@id/reg_pass"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/reg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/confirm_reg_pass"
+        android:backgroundTint="@color/DarkSlateGray"
+        android:textColor="@color/White"/>
+
+
+
+    <TextView
+        android:id="@+id/hasAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hasAccount"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/client_login_btn" />
+
+    <TextView
+        android:id="@+id/client_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="@string/action_login"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:textColor="@color/White"
+        android:background="@color/DarkSlateGray"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
